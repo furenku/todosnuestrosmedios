@@ -1,0 +1,194 @@
+ Name: todos
+Template: Foundation
+
+*/
+
+
+body {
+    background-color: #ddd;
+}
+
+
+li {
+    list-style:none;
+}
+
+.top-bar,
+.top-bar-section div,
+.top-bar div,
+.title-area {
+    width:100%;
+    text-align:center;
+    background-color:#000;
+}
+
+
+.top-bar,
+.top-bar div {
+
+    padding: 10px 0;
+}
+
+
+.title-area .name {
+
+    font-size:36px;
+}
+
+.descripcion{
+    font-style:italic;
+    color:#aaa;
+}
+
+
+
+#menu {}
+
+#menu li {
+    display:inline-block;
+    margin: 0 15px;
+}
+#menu li a {
+    color:#fff;
+}
+
+
+
+
+
+
+
+.contenedor_posts {
+    border-radius:10px;
+    border: 1px solid #000;
+    background-color:#fff;
+    margin: 30px 0;
+}
+
+.post {
+
+    padding: 15px;
+    margin: 15px;
+    border-radius:10px;
+    border: 1px solid #ddd;
+}
+
+.post a {
+    color:#000;
+}
+
+
+.ir_al_link {
+    margin:10px 0;
+}
+.post:hover ,
+.post:hover a{
+    background-color:#555;
+    color:#fff;
+}
+
+footer {
+    border-top:1px solid #000;    
+}
+#texto_footer {
+    width:40%;
+    padding:20px;
+    font-size:13px;
+    font-style: italic;
+}
+
+
+
+
+/*twitter*/
+
+
+#redes {
+    width:100%;
+}
+
+
+#redes,
+#redes > div {
+    padding:0 2.5%;
+    width:95%;
+    background-color: #ddd;
+}
+
+#redes .titulo {
+    font-size:18px;
+    color:#aaa;
+}
+#redes #twitter {
+
+    background-color: #ddd;
+
+}
+#redes #twitter #stream {
+    height:175px;
+    overflow-y: auto;
+}
+.tweet{
+    margin:10px 0;
+}
+.stream-item-footer {
+    display:none;
+}
+
+#stream {
+    padding:0;
+    font-family:gothambook;
+}
+#stream li {
+    padding:5px 0;
+    margin:15px 0;
+    font-size:14px;
+    border-bottom: 2px dotted #aaa;
+}
+
+#inicio #iconos {
+    text-align:right;
+}
+
+#inicio #iconos img {
+    width:25px;
+    height:25px;
+}
+
+#inicio #twitter {
+    
+    overflow-y: auto;
+    font-size: 12px;
+    width: 100%;
+    display: inline-block;
+    border-radius:5px;
+    overflow: hidden;
+    padding:20px;
+}
+#inicio #twitter > div {
+    width:100%;
+    background-color:#f9f9f9;
+    height:100%;
+    /*
+     */
+    background:#fff;
+    font-size:11px;
+    border-radius:15px;
+}
+#twitter .scroll_hide {
+    width:100%;
+}
+#twitter .scroll_hide .stream-item-footer{
+    display:none;
+}
+#stream>div,
+#stream {
+    background-color:#fff;
+}
+
+#inicio #twitter,
+#inicio #twitter > div {
+    padding:5px;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+
+}
